@@ -195,35 +195,31 @@ transform:translateY(-8px);
 
 }
 
-.beforeAfter{
+.cleaningVideo{
 
-display:grid;
+max-width:500px;
 
-grid-template-columns:1fr 1fr;
+margin:50px auto;
 
-gap:30px;
+border-radius:20px;
 
-margin-top:40px;
+overflow:hidden;
 
-}
-
-.imageBox{
-
-height:350px;
-
-border:3px dashed #c8a84a;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-font-size:24px;
+border:3px solid #c8a84a;
 
 background:white;
 
-border-radius:15px;
+box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+}
+
+.cleaningVideo video{
+
+width:100%;
+
+height:auto;
+
+display:block;
 
 }
 
@@ -319,22 +315,32 @@ justify-content:center;
 
 }
 
-.beforeAfter{
 
-grid-template-columns:1fr;
+
+}
+.cleaningVideo{
+
+max-width:500px;
+
+margin:50px auto;
+
+border-radius:20px;
+
+overflow:hidden;
+
+border:3px solid #c8a84a;
+
+background:white;
+
+box-shadow:0 15px 40px rgba(0,0,0,.15);
 
 }
 
-}
-.imageBox video{
+.cleaningVideo video{
 
 width:100%;
 
-height:350px;
-
-object-fit:cover;
-
-border-radius:12px;
+height:auto;
 
 display:block;
 
